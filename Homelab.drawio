@@ -1,9 +1,71 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.16">
   <diagram name="Page-1" id="Wzko_Iv3cd9_h4mMymX6">
-    <mxGraphModel>
+    <mxGraphModel dx="2085" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-2" value="&lt;div&gt;Ubuntu Host&lt;/div&gt;&lt;div&gt;172.31.11.189&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="225" y="30" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-4" value="Docker Daemon (User: System)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="90" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-7" value="Portainer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="250" width="200" height="90" as="geometry">
+            <mxRectangle x="25" y="190" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-9" value="&lt;div&gt;172.31.11.189&lt;/div&gt;&lt;div&gt;Port: 9443&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4aFXp0Dt-I-UFv1_p3GV-7">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-12" value="Nextcloud (Vault)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="200" height="90" as="geometry">
+            <mxRectangle x="25" y="190" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-13" value="&lt;div&gt;172.31.11.189&lt;/div&gt;&lt;div&gt;Port: --&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4aFXp0Dt-I-UFv1_p3GV-12">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-14" value="Minecraft" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="250" width="200" height="90" as="geometry">
+            <mxRectangle x="25" y="190" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-15" value="&lt;div&gt;172.31.11.189&lt;/div&gt;&lt;div&gt;Port: 25566&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4aFXp0Dt-I-UFv1_p3GV-14">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-16" value="OpenWebUI" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="225" y="250" width="200" height="90" as="geometry">
+            <mxRectangle x="25" y="190" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-17" value="&lt;div&gt;172.31.11.189&lt;/div&gt;&lt;div&gt;Port: --&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4aFXp0Dt-I-UFv1_p3GV-16">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-18" value="WikiJS (mywiki)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="200" height="90" as="geometry">
+            <mxRectangle x="25" y="190" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-19" value="&lt;div&gt;172.31.11.189&lt;/div&gt;&lt;div&gt;Port: 3300&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4aFXp0Dt-I-UFv1_p3GV-18">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-20" value="Cloudflared (Utillities_Tunnel)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="325" y="505" width="200" height="90" as="geometry">
+            <mxRectangle x="25" y="190" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-21" value="&lt;div&gt;172.31.11.189&lt;/div&gt;&lt;div&gt;Port: --&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4aFXp0Dt-I-UFv1_p3GV-20">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-23" value="Uptime Kuma (uptime-kuma)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="250" width="200" height="90" as="geometry">
+            <mxRectangle x="25" y="190" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4aFXp0Dt-I-UFv1_p3GV-24" value="&lt;div&gt;172.31.11.189&lt;/div&gt;&lt;div&gt;Port: 3001&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4aFXp0Dt-I-UFv1_p3GV-23">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
